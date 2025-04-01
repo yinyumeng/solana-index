@@ -1,0 +1,195 @@
+{
+  "blockTime": 1743526790,
+  "meta": {
+    "computeUnitsConsumed": 41484,
+    "err": null,
+    "fee": 11090,
+    "innerInstructions": [
+      {
+        "index": 0,
+        "instructions": [
+          {
+            "parsed": {
+              "info": {
+                "destination": "FEEsULscQfrdNdg1HLE7i3A9trnqBauNJckKAvXA2Gsm",
+                "lamports": 200000,
+                "source": "7Q1An79Q8BQZvWcTJWfR3VSfCJ6WXQSbYpqq1QJAiREx"
+              },
+              "type": "transfer"
+            },
+            "program": "system",
+            "programId": "11111111111111111111111111111111",
+            "stackHeight": 2
+          },
+          {
+            "parsed": {
+              "info": {
+                "destination": "EN9rWxRawq7EMjKt5p45P3tf8n9guDSeH2FpviCQbzwK",
+                "lamports": 100000,
+                "source": "7Q1An79Q8BQZvWcTJWfR3VSfCJ6WXQSbYpqq1QJAiREx"
+              },
+              "type": "transfer"
+            },
+            "program": "system",
+            "programId": "11111111111111111111111111111111",
+            "stackHeight": 2
+          },
+          {
+            "parsed": {
+              "info": {
+                "destination": "Gd2zWTdAs6Rwygn9thhcRBtadBng4csoEgaTdzfr5G3Z",
+                "lamports": 10000000,
+                "source": "7Q1An79Q8BQZvWcTJWfR3VSfCJ6WXQSbYpqq1QJAiREx"
+              },
+              "type": "transfer"
+            },
+            "program": "system",
+            "programId": "11111111111111111111111111111111",
+            "stackHeight": 2
+          }
+        ]
+      }
+    ],
+    "logMessages": [
+      "Program CRSHdMVmWgRsarrRWnRXWKMxJhLEUheiU6SEhqCLS4Gm invoke [1]",
+      "Program log: Instruction: Join",
+      "Program 11111111111111111111111111111111 invoke [2]",
+      "Program 11111111111111111111111111111111 success",
+      "Program 11111111111111111111111111111111 invoke [2]",
+      "Program 11111111111111111111111111111111 success",
+      "Program 11111111111111111111111111111111 invoke [2]",
+      "Program 11111111111111111111111111111111 success",
+      "Program data: xOMiGrkWEJwBAGUAYCqdAAAAAADgkwQAAAAAAICWmAAAAAAAXwqruFs0UWogwrr8VwzSgfQr2ERRC70wu2TnGEiZ5+EBEAAAAGV5SmhiU0k2TXk0NU5YMD3RCwUAAAAAAAcAAAAAAAAAgOgeAAAAAAAAwusLAAAAAA==",
+      "Program log: Player 7Q1An79Q8BQZvWcTJWfR3VSfCJ6WXQSbYpqq1QJAiREx joined game 1 in room 101 for round 330705. Total players: 7. Global bet count: 2025600. Current round bet amount: 200000000",
+      "Program CRSHdMVmWgRsarrRWnRXWKMxJhLEUheiU6SEhqCLS4Gm consumed 41334 of 203000 compute units",
+      "Program CRSHdMVmWgRsarrRWnRXWKMxJhLEUheiU6SEhqCLS4Gm success",
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success"
+    ],
+    "postBalances": [
+      7984656334,
+      1287600,
+      2303760,
+      132517325688,
+      489230535842,
+      39955118983,
+      0,
+      1,
+      1141440,
+      1
+    ],
+    "postTokenBalances": [],
+    "preBalances": [
+      7994967424,
+      1287600,
+      2303760,
+      132517125688,
+      489220535842,
+      39955018983,
+      0,
+      1,
+      1141440,
+      1
+    ],
+    "preTokenBalances": [],
+    "rewards": [],
+    "status": {
+      "Ok": null
+    }
+  },
+  "slot": 330632699,
+  "transaction": {
+    "message": {
+      "accountKeys": [
+        {
+          "pubkey": "7Q1An79Q8BQZvWcTJWfR3VSfCJ6WXQSbYpqq1QJAiREx",
+          "signer": true,
+          "source": "transaction",
+          "writable": true
+        },
+        {
+          "pubkey": "9rKPmSK6CnycAukNuVXRYvurqUzfzFMHYhR6taxDMqCC",
+          "signer": false,
+          "source": "transaction",
+          "writable": true
+        },
+        {
+          "pubkey": "RUMJK5kK2bvxem2XV2qJdB1vzv9tfUgzt8ZGkUnmeqe",
+          "signer": false,
+          "source": "transaction",
+          "writable": true
+        },
+        {
+          "pubkey": "FEEsULscQfrdNdg1HLE7i3A9trnqBauNJckKAvXA2Gsm",
+          "signer": false,
+          "source": "transaction",
+          "writable": true
+        },
+        {
+          "pubkey": "Gd2zWTdAs6Rwygn9thhcRBtadBng4csoEgaTdzfr5G3Z",
+          "signer": false,
+          "source": "transaction",
+          "writable": true
+        },
+        {
+          "pubkey": "EN9rWxRawq7EMjKt5p45P3tf8n9guDSeH2FpviCQbzwK",
+          "signer": false,
+          "source": "transaction",
+          "writable": true
+        },
+        {
+          "pubkey": "8Ty9jaGZku7TFVwo2EReB94VHw4FKQ2BqoEsamPZATUA",
+          "signer": false,
+          "source": "transaction",
+          "writable": true
+        },
+        {
+          "pubkey": "11111111111111111111111111111111",
+          "signer": false,
+          "source": "transaction",
+          "writable": false
+        },
+        {
+          "pubkey": "CRSHdMVmWgRsarrRWnRXWKMxJhLEUheiU6SEhqCLS4Gm",
+          "signer": false,
+          "source": "transaction",
+          "writable": false
+        },
+        {
+          "pubkey": "ComputeBudget111111111111111111111111111111",
+          "signer": false,
+          "source": "transaction",
+          "writable": false
+        }
+      ],
+      "instructions": [
+        {
+          "accounts": [
+            "RUMJK5kK2bvxem2XV2qJdB1vzv9tfUgzt8ZGkUnmeqe",
+            "Gd2zWTdAs6Rwygn9thhcRBtadBng4csoEgaTdzfr5G3Z",
+            "8Ty9jaGZku7TFVwo2EReB94VHw4FKQ2BqoEsamPZATUA",
+            "FEEsULscQfrdNdg1HLE7i3A9trnqBauNJckKAvXA2Gsm",
+            "EN9rWxRawq7EMjKt5p45P3tf8n9guDSeH2FpviCQbzwK",
+            "9rKPmSK6CnycAukNuVXRYvurqUzfzFMHYhR6taxDMqCC",
+            "7Q1An79Q8BQZvWcTJWfR3VSfCJ6WXQSbYpqq1QJAiREx",
+            "11111111111111111111111111111111"
+          ],
+          "data": "aPWKoDqXaxq9wHeAwiLLoSvYV4L71cdPWfwPgQcUU6fdsrA5gsMCrWV8ygPShEJ27sz",
+          "programId": "CRSHdMVmWgRsarrRWnRXWKMxJhLEUheiU6SEhqCLS4Gm",
+          "stackHeight": null
+        },
+        {
+          "accounts": [],
+          "data": "3MZf3aXK9QFy",
+          "programId": "ComputeBudget111111111111111111111111111111",
+          "stackHeight": null
+        }
+      ],
+      "recentBlockhash": "46EWP5oACvX8Xfgv4CAu8g1BEL6HchvMdEzwb2AsTLpE"
+    },
+    "signatures": [
+      "3x8ZgayZ6rGppbxKTzAn2nsvWyS2rGjtNF9Mn7JVGKFB4zfAWNHgNq5h643bdjZTFU9vHC5bP3sTpt3x3HnaVPs9"
+    ]
+  },
+  "version": "legacy"
+}

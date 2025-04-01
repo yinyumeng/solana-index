@@ -1,0 +1,20 @@
+[
+  {
+    "signature": "Eq9Pg4BfLU72kDvTLSK2bvgHv4TSR4BvC5PcZmGV3XvpJuZD9sA24Jt5tLRE3H7JuTafAgvNee6zEaaiCRWci8i",
+    "block": 330624208,
+    "blockTime": "2025-04-01T16:02:51.000Z",
+    "accountIndex": "1",
+    "mint": "8drNpkdykMSYZq8UyxhUjbN8L5xQr4TTf2t6PKttpump",
+    "owner": "4sNfbqV1GCGfCBmfURwNPR3c2FidZ5Tb3d1LpXmedusr",
+    "makerAddress": "4sNfbqV1GCGfCBmfURwNPR3c2FidZ5Tb3d1LpXmedusr",
+    "decimals": 6,
+    "preAmount": "27315086",
+    "preUiAmount": "27.315086",
+    "postAmount": "0",
+    "postUiAmount": "0",
+    "changeAmount": "-27315086",
+    "changeUiAmount": "-27.315086",
+    "type": "burn",
+    "status": "success"
+  }
+]

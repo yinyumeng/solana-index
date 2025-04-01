@@ -1,0 +1,244 @@
+{
+  "blockTime": 1743526790,
+  "meta": {
+    "computeUnitsConsumed": 71785,
+    "err": null,
+    "fee": 10000,
+    "innerInstructions": [],
+    "logMessages": [
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program dRiftyHA39MWEi3m9aunc5MzRF1JYuBsbn6VPcn33UH invoke [1]",
+      "Program log: Instruction: PostPythLazerOracleUpdate",
+      "Program log: Skipping new lazer update. current ts 1743526790000000 >= next ts 1743526790000000",
+      "Program log: Skipping new lazer update. current ts 1743526790000000 >= next ts 1743526790000000",
+      "Program log: Skipping new lazer update. current ts 1743526790000000 >= next ts 1743526790000000",
+      "Program log: Skipping new lazer update. current ts 1743526790000000 >= next ts 1743526790000000",
+      "Program dRiftyHA39MWEi3m9aunc5MzRF1JYuBsbn6VPcn33UH consumed 21973 of 199700 compute units",
+      "Program dRiftyHA39MWEi3m9aunc5MzRF1JYuBsbn6VPcn33UH success",
+      "Program dRiftyHA39MWEi3m9aunc5MzRF1JYuBsbn6VPcn33UH invoke [1]",
+      "Program log: Instruction: UpdatePerpBidAskTwap",
+      "Program log: estimated_bid = None estimated_ask = None",
+      "Program log: before amm bid twap = 203709 ask twap = 204452 ts = 1743526770",
+      "Program log: after amm bid twap = 203708 ask twap = 204453 ts = 1743526790",
+      "Program dRiftyHA39MWEi3m9aunc5MzRF1JYuBsbn6VPcn33UH consumed 49512 of 177727 compute units",
+      "Program dRiftyHA39MWEi3m9aunc5MzRF1JYuBsbn6VPcn33UH success"
+    ],
+    "postBalances": [
+      1769090443,
+      1,
+      1,
+      1141440,
+      2561280,
+      194584840,
+      2561280,
+      9354240,
+      1224960,
+      1224960,
+      1224960,
+      1224960,
+      0,
+      7795202,
+      3542640
+    ],
+    "postTokenBalances": [],
+    "preBalances": [
+      1769100443,
+      1,
+      1,
+      1141440,
+      2561280,
+      194584840,
+      2561280,
+      9354240,
+      1224960,
+      1224960,
+      1224960,
+      1224960,
+      0,
+      7795202,
+      3542640
+    ],
+    "preTokenBalances": [],
+    "rewards": [],
+    "status": {
+      "Ok": null
+    }
+  },
+  "slot": 330632699,
+  "transaction": {
+    "message": {
+      "accountKeys": [
+        {
+          "pubkey": "FetTyW8xAYfd33x4GMHoE7hTuEdWLj1fNnhJuyVMUGGa",
+          "signer": true,
+          "source": "transaction",
+          "writable": true
+        },
+        {
+          "pubkey": "ComputeBudget111111111111111111111111111111",
+          "signer": false,
+          "source": "transaction",
+          "writable": false
+        },
+        {
+          "pubkey": "Ed25519SigVerify111111111111111111111111111",
+          "signer": false,
+          "source": "transaction",
+          "writable": false
+        },
+        {
+          "pubkey": "dRiftyHA39MWEi3m9aunc5MzRF1JYuBsbn6VPcn33UH",
+          "signer": false,
+          "source": "transaction",
+          "writable": false
+        },
+        {
+          "pubkey": "E8NbQB8rAPRP1cEsi8Hv1974PyNLzBngDrMBbqXw19sa",
+          "signer": false,
+          "source": "transaction",
+          "writable": false
+        },
+        {
+          "pubkey": "BdnN9ToXoxBp8ar3aBdYJmX7HtHBsn2Mu57yEf5J5XJP",
+          "signer": false,
+          "source": "transaction",
+          "writable": false
+        },
+        {
+          "pubkey": "J13Yt6ENFqBYwpom7dBHLJ4uQxoacz1efj5eeQ4qjtdf",
+          "signer": false,
+          "source": "transaction",
+          "writable": false
+        },
+        {
+          "pubkey": "6oopaUD3RK7mHBf2vPWT3aUodysg3VWcqksuAZo4xWrt",
+          "signer": false,
+          "source": "lookupTable",
+          "writable": true
+        },
+        {
+          "pubkey": "BERaNi6cpEresbq6HC1EQGaB1H1UjvEo4NGnmYSSJof4",
+          "signer": false,
+          "source": "lookupTable",
+          "writable": true
+        },
+        {
+          "pubkey": "HDveCibToLf157NtUqShCEWX3GcF4Aq8Ngt2bst1s1cc",
+          "signer": false,
+          "source": "lookupTable",
+          "writable": true
+        },
+        {
+          "pubkey": "5DYEjGpr28q3EsLKAnLXiDq6UeaFgDFZ5Gdwgp5RmPAp",
+          "signer": false,
+          "source": "lookupTable",
+          "writable": true
+        },
+        {
+          "pubkey": "GqjDJZu9bNCebq5PTUbjRrgw1LK84GEexVjrfYJ76YXc",
+          "signer": false,
+          "source": "lookupTable",
+          "writable": true
+        },
+        {
+          "pubkey": "Sysvar1nstructions1111111111111111111111111",
+          "signer": false,
+          "source": "lookupTable",
+          "writable": false
+        },
+        {
+          "pubkey": "5zpq7DvB6UdFFvpmBPspGPNfUGoBRRCE2HHg5u3gxcsN",
+          "signer": false,
+          "source": "lookupTable",
+          "writable": false
+        },
+        {
+          "pubkey": "3rdJbqfnagQ4yx9HXJViD4zc4xpiSqmFsKpPuSCQVyQL",
+          "signer": false,
+          "source": "lookupTable",
+          "writable": false
+        }
+      ],
+      "addressTableLookups": [
+        {
+          "accountKey": "Fpys8GRa5RBWfyeN7AaDUwFGD1zkDCA4z3t4CJLV8dfL",
+          "readonlyIndexes": [
+            163,
+            131
+          ],
+          "writableIndexes": [
+            11
+          ]
+        },
+        {
+          "accountKey": "EiWSskK5HXnBTptiS5DH6gpAJRVNQ3cAhTKBGaiaysAb",
+          "readonlyIndexes": [
+            65
+          ],
+          "writableIndexes": [
+            50,
+            1,
+            2,
+            26
+          ]
+        }
+      ],
+      "instructions": [
+        {
+          "accounts": [],
+          "data": "Fj2Eoy",
+          "programId": "ComputeBudget111111111111111111111111111111",
+          "stackHeight": null
+        },
+        {
+          "accounts": [],
+          "data": "3DTZbgwsozUF",
+          "programId": "ComputeBudget111111111111111111111111111111",
+          "stackHeight": null
+        },
+        {
+          "accounts": [],
+          "data": "8AW9LW2yEqHr694K4gWaj",
+          "programId": "Ed25519SigVerify111111111111111111111111111",
+          "stackHeight": null
+        },
+        {
+          "accounts": [
+            "FetTyW8xAYfd33x4GMHoE7hTuEdWLj1fNnhJuyVMUGGa",
+            "3rdJbqfnagQ4yx9HXJViD4zc4xpiSqmFsKpPuSCQVyQL",
+            "Sysvar1nstructions1111111111111111111111111",
+            "BERaNi6cpEresbq6HC1EQGaB1H1UjvEo4NGnmYSSJof4",
+            "HDveCibToLf157NtUqShCEWX3GcF4Aq8Ngt2bst1s1cc",
+            "5DYEjGpr28q3EsLKAnLXiDq6UeaFgDFZ5Gdwgp5RmPAp",
+            "GqjDJZu9bNCebq5PTUbjRrgw1LK84GEexVjrfYJ76YXc"
+          ],
+          "data": "qtCQ2qtJr2rswcfP2sCSvCefE3Eyz6xxhpGijrmoWyijXhets9CfnMcSqbXV3g9fXeinbuGzqhLJXa7eu4ZVHzQFJoAqU4wtUMtPok1ZdH5dcNyKV1QSvfRwzVUFRbCjstjCYHoBQeKysQrMA2KBVGCPbbWFo3qqQjTLqF8JxMLzKK14vd4h68m5XfTtzMZf1ECSKf6NCcRZCjhzrLh3tCfKw9Z7RMuJwJUUPPZLQKzsMQBJEVRVFG52RcqBvxKPqoMpKpRPrEZMFCxJ4uVgLP3Jm639mTfuFdhmWeCGpHvHkMEnNJJnZqDfhVrmGXdPeFDoJWBLeKiYYmNUEQgfjYrm7M4x5nc3K3Qi4c4ybofXn6",
+          "programId": "dRiftyHA39MWEi3m9aunc5MzRF1JYuBsbn6VPcn33UH",
+          "stackHeight": null
+        },
+        {
+          "accounts": [
+            "5zpq7DvB6UdFFvpmBPspGPNfUGoBRRCE2HHg5u3gxcsN",
+            "6oopaUD3RK7mHBf2vPWT3aUodysg3VWcqksuAZo4xWrt",
+            "HDveCibToLf157NtUqShCEWX3GcF4Aq8Ngt2bst1s1cc",
+            "E8NbQB8rAPRP1cEsi8Hv1974PyNLzBngDrMBbqXw19sa",
+            "FetTyW8xAYfd33x4GMHoE7hTuEdWLj1fNnhJuyVMUGGa",
+            "BdnN9ToXoxBp8ar3aBdYJmX7HtHBsn2Mu57yEf5J5XJP",
+            "J13Yt6ENFqBYwpom7dBHLJ4uQxoacz1efj5eeQ4qjtdf"
+          ],
+          "data": "iL7tbpMxYUH",
+          "programId": "dRiftyHA39MWEi3m9aunc5MzRF1JYuBsbn6VPcn33UH",
+          "stackHeight": null
+        }
+      ],
+      "recentBlockhash": "22i5EN6Y5r6f3cio4X5CVpvY3YHxcBYg6k81tUb7enPs"
+    },
+    "signatures": [
+      "63HDp7xTz5M9gsW7YxD6ME5p5qWnanMPiNwRNm3BVg3tiwvCc86asDvUknLsGqPcQ6RAnPpyjBQDiH3KRGKJQxp1"
+    ]
+  },
+  "version": 0
+}
